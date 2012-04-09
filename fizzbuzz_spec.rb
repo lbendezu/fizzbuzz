@@ -18,4 +18,8 @@ describe FizzBuzz do
 		@fizzbuzz.imprimir_numero(15).should == "FizzBuzz"
 	end
 
+	it "Si no es multiplo de 3 ni de 5 debe imprimir el mismo numero" do
+		@fizzbuzz.imprimir_numero(7).should == "7"
+	end
+
 end
