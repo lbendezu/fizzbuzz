@@ -14,4 +14,8 @@ describe FizzBuzz do
 		@fizzbuzz.imprimir_numero(5).should == "Buzz"
 	end
 
+	it "Si es multiplo de 3 y de 5 debe imprimir FizzBuzz" do
+		@fizzbuzz.imprimir_numero(15).should == "FizzBuzz"
+	end
+
 end
