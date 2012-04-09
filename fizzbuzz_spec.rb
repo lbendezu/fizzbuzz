@@ -22,4 +22,8 @@ describe FizzBuzz do
 		@fizzbuzz.imprimir_numero(7).should == "7"
 	end
 
+	it "Verificando Completamente el ejercicio" do
+		@fizzbuzz.imprimir_fizzbuzz()
+	end
+
 end
