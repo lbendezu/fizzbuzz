@@ -10,4 +10,8 @@ describe FizzBuzz do
   	@fizzbuzz.imprimir_numero(3).should == "Fizz"
 	end
 
+	it "Si es multiplo de 5 debe imprimit Buzz" do
+		@fizzbuzz.imprimir_numero(5).should == "Buzz"
+	end
+
 end
