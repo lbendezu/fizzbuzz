@@ -1,4 +1,4 @@
-#mira
+#mira mira mira
 class FizzBuzz
 
 	def imprimir_fizzbuzz
