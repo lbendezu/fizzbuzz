@@ -18,5 +18,5 @@ class FizzBuzz
 			return numero.to_s
 		end
 	end
-
+	#lol u mad?
 end
